@@ -1,0 +1,36 @@
+.banner {
+  
+   
+}
+
+.banner-bottom {
+    
+
+    background-image:
+        url('../../Assets/pose_2.png'),
+        url('../../Assets/Ellipse\ 11.png');
+    background-position: 50% 50%, 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 466px;
+    height: 466px;
+    position: relative;
+}
+
+.banner-button {
+    position: absolute;
+    transform: translate(-40px, 17rem)
+}
+
+.bottom-div {
+    position: absolute;
+    width: 229px;
+    height: 133px;
+    top: 447px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    transform: translate(130%, -70%)
+}
+
+.bottom-div img {}
