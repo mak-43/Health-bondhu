@@ -1,5 +1,8 @@
 import React from 'react';
-
+import i from '../../Assets/v4.png'
+import i2 from '../../Assets/v1.png'
+import i3 from '../../Assets/v2.png'
+import i4 from '../../Assets/v3.png'
 const Service = () => {
     return (
         <div className='flex justify-center'>
@@ -10,7 +13,7 @@ const Service = () => {
                     <div className='bg-white rounded w-[236px] p-5'>
                         <div className='flex justify-between my-5'>
                             <p>Cardiology</p>
-                            <i class="fa-solid fa-heart-pulse text-primary font-bold"></i>
+                            <i class="fa-solid fa-heart-pulse text-secondary text-xl"></i>
                         </div>
                         <p>Seduahag perspiciati under <br /> omnised atused error</p>
 
@@ -18,8 +21,8 @@ const Service = () => {
                     </div>
                     <div className='bg-white rounded w-[236px] p-5'>
                         <div className='flex justify-between my-5'>
-                            <p>Cardiology</p>
-                            <i class="fa-solid fa-heart-pulse text-primary font-bold"></i>
+                            <p>Monthly Check Up</p>
+                            <img src={i2} alt="" />
                         </div>
                         <p>Seduahag perspiciati under <br /> omnised atused error</p>
 
@@ -27,8 +30,8 @@ const Service = () => {
                     </div>
                     <div className='bg-white rounded w-[236px] p-5'>
                         <div className='flex justify-between my-5'>
-                            <p>Cardiology</p>
-                            <i class="fa-solid fa-heart-pulse text-primary font-bold"></i>
+                            <p>Dental Care</p>
+                            <img src={i3} alt="" />
                         </div>
                         <p>Seduahag perspiciati under <br /> omnised atused error</p>
 
@@ -36,8 +39,8 @@ const Service = () => {
                     </div>
                     <div className='bg-white rounded w-[236px] p-5'>
                         <div className='flex justify-between my-5'>
-                            <p>Cardiology</p>
-                            <i class="fa-solid fa-heart-pulse text-primary font-bold"></i>
+                            <p>Opthalmology</p>
+                            <img src={i} alt="" />
                         </div>
                         <p>Seduahag perspiciati under <br /> omnised atused error</p>
 

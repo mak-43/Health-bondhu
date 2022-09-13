@@ -1,16 +1,16 @@
 import React from 'react';
-
+import './Feature.css'
 const Feature = () => {
     return (
-        <div className='mt-20 w-4/6 mx-auto'>
+        <div className='mt-20 w-4/6 mx-auto feature-filter'>
             <div className='flex sm:flex-col md:flex-row lg:flex-row justify-center items-center gap-5'>
-                <div className='basis-1/3 relative'>
-                    <div className='exp-bottom'>
+                <div className='basis-1/3 relative sm:order-2 md:order-1'>
+                    <div className='feature-top'>
 
                     </div>
 
                 </div>
-                <div className='basis-1/2 '>
+                <div className='basis-1/2 sm:order-1 md:order-2'>
                     <h2 className='text-secondary  my-4 font-bold'>Our Hospital Feature</h2>
                     <h1 className='font-bold text-2xl my-5'>Make An Appointment Easy And Fast <br />Services</h1>
                     <div className='grid grid-cols-2 gap-5'>

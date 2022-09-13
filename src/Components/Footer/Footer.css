@@ -1,0 +1,6 @@
+.i i{
+    background: #E8EEF6;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08), inset 0px 1px 4px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 50%;
+}

@@ -1,11 +1,4 @@
-.banner {
-  
-   
-}
-
 .banner-bottom {
-    
-
     background-image:
         url('../../Assets/pose_2.png'),
         url('../../Assets/Ellipse\ 11.png');
@@ -24,7 +17,7 @@
 
 .bottom-div {
     position: absolute;
-    width: 229px;
+    width: 250px;
     height: 133px;
     top: 447px;
     background-color: white;
@@ -33,4 +26,30 @@
     transform: translate(130%, -70%)
 }
 
-.bottom-div img {}
+.div-lower {
+    width: 189px;
+    height: 14px;
+    margin-top: 5px;
+    background: linear-gradient(90deg, rgba(45, 137, 255, 0.57) 0%, rgba(45, 137, 255, 0) 100%);
+    border-radius: 50px;
+}
+
+.div-lowerr {
+
+    width: 189px;
+    height: 14px;
+    margin-top: 5px;
+    background: linear-gradient(90deg, rgba(45, 137, 255, 0.3) 0%, rgba(45, 137, 255, 0) 100%);
+    border-radius: 50px;
+}
+
+.banner-filter {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    left: -9px;
+    top: 331px;
+    
+    background: #90D4ED;
+    filter: blur(800px);
+}

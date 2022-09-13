@@ -1,0 +1,42 @@
+.faq-bottom{
+  
+        background-image:
+        url('../../Assets/pose_8.png'),
+        url('../../Assets/Ellipse\ 11.png'),
+        url('../../Assets/Ellipse\ 10.png'),
+        url('../../Assets/Blood\ Pressure.png'),
+        url('../../Assets/Gloves.png'),
+        url('../../Assets/Defibrillator.png')
+        ;
+    
+    
+        background-position: 50% 50%, 50% 0%,50% 100%,100% 0%,90% 70%,10% 20%;
+        background-repeat: no-repeat;
+      
+        height: 315px;
+        width: 321px;
+    
+}
+.faq-lower{
+    position: absolute;
+    top:55%;
+    left:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.faq-filter{
+
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    left: -9px;
+    top:1329px;
+ 
+    
+    background: #90EDCC;
+    filter: blur(800px);
+}

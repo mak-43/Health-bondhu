@@ -9,7 +9,7 @@ import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
-    <div className="App bg-[">
+    <div className="">
 
         <Nav/>
         <Banner/>
