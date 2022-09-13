@@ -1,27 +1,23 @@
-.feature-top{
+.feature-top {
     background-image:
-    url('../../Assets/pose_7.png'),
-    url('../../Assets/Ellipse\ 11.png'),
-    url('../../Assets/Ellipse\ 10.png'),
-    url('../../Assets/Masker.png'),
-    url('../../Assets/Hand\ Sanitizer.png'),
-    url('../../Assets/ThermoGun.png')
-    ;
+        url('../../Assets/pose_7.png'),
+        url('../../Assets/Ellipse\ 11.png'),
+        url('../../Assets/Ellipse\ 10.png'),
+        url('../../Assets/Masker.png'),
+        url('../../Assets/Hand\ Sanitizer.png'),
+        url('../../Assets/ThermoGun.png');
 
-
-    background-position: 50% 50%, 50% 0%,50% 100%,20% 0%,0% 70%,90% 70%;
+    
+    background-position: 50% 50%, 50% 0%, 50% 100%, 20% 0%, 0% 70%, 90% 70%;
     background-repeat: no-repeat;
-  
+
     height: 321px;
     width: 321px;
 }
-.feature-filter{
-    position: absolute;
-width: 450px;
-height: 450px;
-left: 1062px;
-top: 1295px;
 
-background: #EB90ED;
-filter: blur(800px);
+.feature-filter {
+
+ 
+    /* background-color: #EB90ED;
+    filter: blur(800px); */
 }

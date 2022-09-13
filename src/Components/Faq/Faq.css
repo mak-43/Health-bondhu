@@ -30,7 +30,7 @@
 }
 .faq-filter{
 
-    position: absolute;
+    /* position: absolute;
     width: 440px;
     height: 440px;
     left: -9px;
@@ -38,5 +38,5 @@
  
     
     background: #90EDCC;
-    filter: blur(800px);
+    filter: blur(800px); */
 }
