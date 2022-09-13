@@ -4,7 +4,7 @@ import './Experience.css'
 const Experience = () => {
     return (
         <div className='mt-20 w-4/6 mx-auto'>
-            <div className='flex sm:flex-col md:flex-row justify-center items-center gap-5'>
+            <div className='flex sm:flex-col md:flex-row lg:flex-row justify-center items-center gap-5'>
                 <div className='basis-1/2 '>
                     <h2 className='text-secondary  my-4 font-bold'>16+ Years Experience</h2>
                     <h1 className='font-bold text-2xl '>We Are Always Ensure Best Medical <br />Treatment For Your Health</h1>

@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className=' mt-20 flex justify-center banner'>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 relative'>
-                <div className='md:ml-[100px] '>
+                <div className='md:ml-[100px] md:order-1 sm:order-2'>
                     <div className=' my-10 text-9xl'>
                         <h2 className='text-4xl font-semibold'> Your <span className='text-primary'>Health</span> Is Our</h2>
                         <h2 className='text-4xl font-semibold'> Top <span className='text-secondary'>Priority</span></h2>
@@ -32,7 +32,7 @@ const Banner = () => {
 
                 </div>
 
-                <div className="banner-bottom ">
+                <div className="banner-bottom sm:order-1 md:order-2">
 
                     <button className='bg-secondary text-white px-3 py-2 rounded-md mt-30 banner-button'><i class="fa-regular fa-circle-check "></i> Regular Checkup</button>
                     <div className="bottom-div">
