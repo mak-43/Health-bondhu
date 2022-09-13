@@ -49,7 +49,18 @@
     height: 440px;
     left: -9px;
     top: 331px;
-    
+
     background: #90D4ED;
     filter: blur(800px);
+}
+
+.banner {
+    /* position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 1062px;
+    top: -180px;
+
+    background-color: #90E2ED;
+    filter: blur(800px); */
 }

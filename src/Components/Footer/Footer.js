@@ -3,6 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='bg-[#E9EEF7] ' >
+
             <div className='grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 mt-20  w-4/6 mx-auto'>
                 <div className='mb-5'>
                     <h2 className='text-2xl font-bold my-5'> <span className='text-primary'>Doc</span> <span className='text-secondary'>mic</span></h2>
