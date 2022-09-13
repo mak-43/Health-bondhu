@@ -15,15 +15,15 @@ const Banner = () => {
 
                     <div className='flex gap-10  items-center my-[25px]'>
                         <div>
-                            <h4 className='text-center'>262k+</h4>
+                            <h4 className='text-center text-secondary font-bold text-2xl'>262k+</h4>
                             <p>Recovered Patients</p>
                         </div>
                         <div>
-                            <h4 className='text-center'>96%</h4>
+                            <h4 className='text-center text-secondary font-bold text-2xl'>96%</h4>
                             <p>Satisfaction Rate</p>
                         </div>
                         <div>
-                            <h4 className='text-center'>86+</h4>
+                            <h4 className='text-center text-secondary font-bold text-2xl'>86+</h4>
                             <p>Expert Doctors</p>
                         </div>
 

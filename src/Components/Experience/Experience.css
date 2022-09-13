@@ -1,0 +1,18 @@
+.exp-bottom{
+ 
+    background-image:
+    url('../../Assets/pose_4.png'),
+    url('../../Assets/Ellipse\ 11.png'),
+    url('../../Assets/Ellipse\ 10.png'),
+    url('../../Assets/Blood\ Pressure.png'),
+    url('../../Assets/First\ Aid.png'),
+    url('../../Assets/Plastrer.png')
+    ;
+
+
+    background-position: 50% 50%, 50% 0%,50% 100%,100% 0%,0% 20%,30% 70%;
+    background-repeat: no-repeat;
+  
+    height: 321px;
+    width: 321px;
+}
